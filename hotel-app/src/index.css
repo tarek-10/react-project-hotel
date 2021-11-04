@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+body {
+
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-item {
+  margin: 0 15px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.container-nav {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container-footer {
+
+  width: 100%;
+  margin: auto;
+  height: 200px;
+  padding: 0px 100px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .nav-item {
+    margin: 0 15px;
+    font-size: 13px;
+    text-transform: capitalize;
+  }
+
+  .container-nav {
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+  }
+
+  .navbar-brand {
+    width: 40%;
+    margin-right: 33.3vw;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+  .navbar-brand {
+    width: 40%;
+    margin-right: 39vw;
+  }
+
+  .nav-item {
+    margin: 0 15px;
+    word-wrap: normal;
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .navbar-brand {
+    width: 33%;
+    margin-right: 4vw;
+  }
+
+  .nav-item {
+    margin: 0 15px;
+    word-wrap: normal;
+    font-size: 25spx;
+    padding: 0;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
